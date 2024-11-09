@@ -41,7 +41,7 @@ function App() {
           Submit
         </button>
       </form>
-      <p style={{ margin: 10 }}>{message}</p>
+      {message && <p style={{ margin: 10 }}>Full Name: {message}</p>}
     </div>
   );
 }
